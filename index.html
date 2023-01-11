@@ -83,6 +83,26 @@
 
     </section>
 
+    <!-- Sekcja "Contact" -->
+    <section id="contact">
+        <h1>Mateusz Bajor</h1>
+        <address>
+            <a href="mailto:mateus.bajor@gmail.com">mateus.bajor@gmail.com</a>
+        </address><br>
 
+        <form action="/action.php">
+            <!--action - The form-handler is specified in the form's action attribute.  -->
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="topic">Topic:</label><br>
+            <input type="text" id="topic" name="topic" required><br><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" required><br><br>
+
+            <input type="submit" value="Send">
+            <!-- Alternatywna forma uzywając elementu button <button type="button">Submit</button> -->
+        </form>
+    </section>
 </body>
 </html>
